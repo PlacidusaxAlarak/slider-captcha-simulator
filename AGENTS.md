@@ -15,9 +15,9 @@
 - Done: Brainstormed and approved the follow-up feature design for a true notch, a decoy notch, random rotation, and an always-visible refresh control.
 - Done: Added the second round of tests and implementation for decoy geometry generation and refresh/reset state management.
 - Done: Re-ran automated and browser-level verification against the updated challenge behavior.
-- Doing: Initialize local git history and prepare the project for GitHub upload.
+- Done: Initialized local git history and prepared the project for GitHub upload.
 - Done: Added `README.md` for GitHub publishing, covering setup, features, configuration, and project structure.
-- To-Do: Attach a GitHub remote and push the repository once the target repo information is available.
+- Done: Attached the GitHub remote and pushed the repository to `origin/main`.
 
 ## Technical Log
 - Constraint: The workspace starts empty and is not a git repository, so the implementation must scaffold the whole project from scratch.
@@ -35,6 +35,7 @@
 - Verification note: Browser validation on `http://localhost:4173` confirmed that the refresh button is always visible, refresh regenerates positions and angles, failed attempts still rebound to origin, success can still be reached, and refresh after success re-enables the slider with a fresh challenge.
 - Publish note: The workspace was not a git repository when the upload request arrived, so the first publishing step is to initialize local git history before adding any GitHub remote.
 - Publish note: A repository-facing `README.md` was added so the project can be pushed with runnable setup instructions and an accurate feature summary.
+- Publish note: The repository is now published at `https://github.com/PlacidusaxAlarak/slider-captcha-simulator.git` and the local `main` branch tracks `origin/main`.
 
 ## Run Instructions
 - Default port: `4173`
