@@ -16,6 +16,7 @@
 - Done: Added the second round of tests and implementation for decoy geometry generation and refresh/reset state management.
 - Done: Re-ran automated and browser-level verification against the updated challenge behavior.
 - Doing: Initialize local git history and prepare the project for GitHub upload.
+- Done: Added `README.md` for GitHub publishing, covering setup, features, configuration, and project structure.
 - To-Do: Attach a GitHub remote and push the repository once the target repo information is available.
 
 ## Technical Log
@@ -33,6 +34,7 @@
 - Verification note: After this change, `npm test` passed with 8/8 tests, including the new geometry-spacing and refresh-state coverage.
 - Verification note: Browser validation on `http://localhost:4173` confirmed that the refresh button is always visible, refresh regenerates positions and angles, failed attempts still rebound to origin, success can still be reached, and refresh after success re-enables the slider with a fresh challenge.
 - Publish note: The workspace was not a git repository when the upload request arrived, so the first publishing step is to initialize local git history before adding any GitHub remote.
+- Publish note: A repository-facing `README.md` was added so the project can be pushed with runnable setup instructions and an accurate feature summary.
 
 ## Run Instructions
 - Default port: `4173`
